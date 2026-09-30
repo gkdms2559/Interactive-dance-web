@@ -1,0 +1,42 @@
+:root {
+  background: #000000;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000000;
+}
+
+#app {
+  position: fixed;
+  inset: 0;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.motion-debug {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  margin: 0;
+  color: #aaaaaa;
+  background: transparent;
+  font: 11px/1.5 ui-monospace, monospace;
+  pointer-events: none;
+  user-select: none;
+}

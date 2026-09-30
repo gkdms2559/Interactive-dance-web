@@ -1,0 +1,2 @@
+.camera{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scaleX(-1);filter:saturate(.75) brightness(1.06);opacity:0;z-index:0;transition:opacity .6s}.camera.is-ready{opacity:1}.camera-overlay{position:absolute;inset:0;background:rgba(239,239,228,.18);pointer-events:none;z-index:1}.camera-notice{position:absolute;top:62px;left:3.2vw;z-index:2;font-size:9px;color:#50534d;letter-spacing:.02em}
+@media(max-width:600px){.camera-notice{left:22px;top:48px}}
